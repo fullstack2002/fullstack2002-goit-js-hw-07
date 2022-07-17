@@ -6,7 +6,6 @@ console.log(galleryItems);
 const imgs = {
 	gallery: document.querySelector(".gallery"),
 };
-
 imgs.gallery.addEventListener("click", clickHandler);
 
 function clickHandler(e) {
